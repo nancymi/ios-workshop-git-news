@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F122110720DBA7E400FC2EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122110620DBA7E400FC2EA3 /* AppDelegate.swift */; };
+		F122110920DBA7E400FC2EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122110820DBA7E400FC2EA3 /* ViewController.swift */; };
+		F122110C20DBA7E400FC2EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F122110A20DBA7E400FC2EA3 /* Main.storyboard */; };
+		F122110E20DBA7E600FC2EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F122110D20DBA7E600FC2EA3 /* Assets.xcassets */; };
+		F122111120DBA7E600FC2EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F122110F20DBA7E600FC2EA3 /* LaunchScreen.storyboard */; };
+		F122111C20DBA7E600FC2EA3 /* ios_workshop_git_newsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122111B20DBA7E600FC2EA3 /* ios_workshop_git_newsTests.swift */; };
+		F122112720DBA7E600FC2EA3 /* ios_workshop_git_newsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122112620DBA7E600FC2EA3 /* ios_workshop_git_newsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F122111820DBA7E600FC2EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12210FB20DBA7E400FC2EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F122110220DBA7E400FC2EA3;
+			remoteInfo = "ios-workshop-git-news";
+		};
+		F122112320DBA7E600FC2EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12210FB20DBA7E400FC2EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F122110220DBA7E400FC2EA3;
+			remoteInfo = "ios-workshop-git-news";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F122110320DBA7E400FC2EA3 /* ios-workshop-git-news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-workshop-git-news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122110620DBA7E400FC2EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F122110820DBA7E400FC2EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F122110B20DBA7E400FC2EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F122110D20DBA7E600FC2EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F122111020DBA7E600FC2EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F122111220DBA7E600FC2EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F122111720DBA7E600FC2EA3 /* ios-workshop-git-newsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-workshop-git-newsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122111B20DBA7E600FC2EA3 /* ios_workshop_git_newsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_workshop_git_newsTests.swift; sourceTree = "<group>"; };
+		F122111D20DBA7E600FC2EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F122112220DBA7E600FC2EA3 /* ios-workshop-git-newsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-workshop-git-newsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122112620DBA7E600FC2EA3 /* ios_workshop_git_newsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_workshop_git_newsUITests.swift; sourceTree = "<group>"; };
+		F122112820DBA7E600FC2EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F122110020DBA7E400FC2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122111420DBA7E600FC2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122111F20DBA7E600FC2EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12210FA20DBA7E400FC2EA3 = {
+			isa = PBXGroup;
+			children = (
+				F122110520DBA7E400FC2EA3 /* ios-workshop-git-news */,
+				F122111A20DBA7E600FC2EA3 /* ios-workshop-git-newsTests */,
+				F122112520DBA7E600FC2EA3 /* ios-workshop-git-newsUITests */,
+				F122110420DBA7E400FC2EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F122110420DBA7E400FC2EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F122110320DBA7E400FC2EA3 /* ios-workshop-git-news.app */,
+				F122111720DBA7E600FC2EA3 /* ios-workshop-git-newsTests.xctest */,
+				F122112220DBA7E600FC2EA3 /* ios-workshop-git-newsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F122110520DBA7E400FC2EA3 /* ios-workshop-git-news */ = {
+			isa = PBXGroup;
+			children = (
+				F122110620DBA7E400FC2EA3 /* AppDelegate.swift */,
+				F122110820DBA7E400FC2EA3 /* ViewController.swift */,
+				F122110A20DBA7E400FC2EA3 /* Main.storyboard */,
+				F122110D20DBA7E600FC2EA3 /* Assets.xcassets */,
+				F122110F20DBA7E600FC2EA3 /* LaunchScreen.storyboard */,
+				F122111220DBA7E600FC2EA3 /* Info.plist */,
+			);
+			path = "ios-workshop-git-news";
+			sourceTree = "<group>";
+		};
+		F122111A20DBA7E600FC2EA3 /* ios-workshop-git-newsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F122111B20DBA7E600FC2EA3 /* ios_workshop_git_newsTests.swift */,
+				F122111D20DBA7E600FC2EA3 /* Info.plist */,
+			);
+			path = "ios-workshop-git-newsTests";
+			sourceTree = "<group>";
+		};
+		F122112520DBA7E600FC2EA3 /* ios-workshop-git-newsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F122112620DBA7E600FC2EA3 /* ios_workshop_git_newsUITests.swift */,
+				F122112820DBA7E600FC2EA3 /* Info.plist */,
+			);
+			path = "ios-workshop-git-newsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F122110220DBA7E400FC2EA3 /* ios-workshop-git-news */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122112B20DBA7E600FC2EA3 /* Build configuration list for PBXNativeTarget "ios-workshop-git-news" */;
+			buildPhases = (
+				F12210FF20DBA7E400FC2EA3 /* Sources */,
+				F122110020DBA7E400FC2EA3 /* Frameworks */,
+				F122110120DBA7E400FC2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-workshop-git-news";
+			productName = "ios-workshop-git-news";
+			productReference = F122110320DBA7E400FC2EA3 /* ios-workshop-git-news.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F122111620DBA7E600FC2EA3 /* ios-workshop-git-newsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122112E20DBA7E600FC2EA3 /* Build configuration list for PBXNativeTarget "ios-workshop-git-newsTests" */;
+			buildPhases = (
+				F122111320DBA7E600FC2EA3 /* Sources */,
+				F122111420DBA7E600FC2EA3 /* Frameworks */,
+				F122111520DBA7E600FC2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F122111920DBA7E600FC2EA3 /* PBXTargetDependency */,
+			);
+			name = "ios-workshop-git-newsTests";
+			productName = "ios-workshop-git-newsTests";
+			productReference = F122111720DBA7E600FC2EA3 /* ios-workshop-git-newsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F122112120DBA7E600FC2EA3 /* ios-workshop-git-newsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122113120DBA7E600FC2EA3 /* Build configuration list for PBXNativeTarget "ios-workshop-git-newsUITests" */;
+			buildPhases = (
+				F122111E20DBA7E600FC2EA3 /* Sources */,
+				F122111F20DBA7E600FC2EA3 /* Frameworks */,
+				F122112020DBA7E600FC2EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F122112420DBA7E600FC2EA3 /* PBXTargetDependency */,
+			);
+			name = "ios-workshop-git-newsUITests";
+			productName = "ios-workshop-git-newsUITests";
+			productReference = F122112220DBA7E600FC2EA3 /* ios-workshop-git-newsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12210FB20DBA7E400FC2EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Nanchen\nYang";
+				TargetAttributes = {
+					F122110220DBA7E400FC2EA3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F122111620DBA7E600FC2EA3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F122110220DBA7E400FC2EA3;
+					};
+					F122112120DBA7E600FC2EA3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F122110220DBA7E400FC2EA3;
+					};
+				};
+			};
+			buildConfigurationList = F12210FE20DBA7E400FC2EA3 /* Build configuration list for PBXProject "ios-workshop-git-news" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12210FA20DBA7E400FC2EA3;
+			productRefGroup = F122110420DBA7E400FC2EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F122110220DBA7E400FC2EA3 /* ios-workshop-git-news */,
+				F122111620DBA7E600FC2EA3 /* ios-workshop-git-newsTests */,
+				F122112120DBA7E600FC2EA3 /* ios-workshop-git-newsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F122110120DBA7E400FC2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122111120DBA7E600FC2EA3 /* LaunchScreen.storyboard in Resources */,
+				F122110E20DBA7E600FC2EA3 /* Assets.xcassets in Resources */,
+				F122110C20DBA7E400FC2EA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122111520DBA7E600FC2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122112020DBA7E600FC2EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12210FF20DBA7E400FC2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122110920DBA7E400FC2EA3 /* ViewController.swift in Sources */,
+				F122110720DBA7E400FC2EA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122111320DBA7E600FC2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122111C20DBA7E600FC2EA3 /* ios_workshop_git_newsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122111E20DBA7E600FC2EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122112720DBA7E600FC2EA3 /* ios_workshop_git_newsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F122111920DBA7E600FC2EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F122110220DBA7E400FC2EA3 /* ios-workshop-git-news */;
+			targetProxy = F122111820DBA7E600FC2EA3 /* PBXContainerItemProxy */;
+		};
+		F122112420DBA7E600FC2EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F122110220DBA7E400FC2EA3 /* ios-workshop-git-news */;
+			targetProxy = F122112320DBA7E600FC2EA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F122110A20DBA7E400FC2EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F122110B20DBA7E400FC2EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F122110F20DBA7E600FC2EA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F122111020DBA7E600FC2EA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F122112920DBA7E600FC2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F122112A20DBA7E600FC2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F122112C20DBA7E600FC2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-workshop-git-news/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.ios-workshop-git-news";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F122112D20DBA7E600FC2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-workshop-git-news/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.ios-workshop-git-news";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F122112F20DBA7E600FC2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-workshop-git-newsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.ios-workshop-git-newsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-workshop-git-news.app/ios-workshop-git-news";
+			};
+			name = Debug;
+		};
+		F122113020DBA7E600FC2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-workshop-git-newsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.ios-workshop-git-newsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-workshop-git-news.app/ios-workshop-git-news";
+			};
+			name = Release;
+		};
+		F122113220DBA7E600FC2EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-workshop-git-newsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.ios-workshop-git-newsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-workshop-git-news";
+			};
+			name = Debug;
+		};
+		F122113320DBA7E600FC2EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-workshop-git-newsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.ios-workshop-git-newsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-workshop-git-news";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12210FE20DBA7E400FC2EA3 /* Build configuration list for PBXProject "ios-workshop-git-news" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122112920DBA7E600FC2EA3 /* Debug */,
+				F122112A20DBA7E600FC2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122112B20DBA7E600FC2EA3 /* Build configuration list for PBXNativeTarget "ios-workshop-git-news" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122112C20DBA7E600FC2EA3 /* Debug */,
+				F122112D20DBA7E600FC2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122112E20DBA7E600FC2EA3 /* Build configuration list for PBXNativeTarget "ios-workshop-git-newsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122112F20DBA7E600FC2EA3 /* Debug */,
+				F122113020DBA7E600FC2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122113120DBA7E600FC2EA3 /* Build configuration list for PBXNativeTarget "ios-workshop-git-newsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122113220DBA7E600FC2EA3 /* Debug */,
+				F122113320DBA7E600FC2EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12210FB20DBA7E400FC2EA3 /* Project object */;
+}
